@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">猿匹配</string>
+
+    <string name="app_text">测试文本</string>
+    <!--登录注册相关资源-->
+    <string name="sign_in">登录</string>
+    <string name="sign_in_welcome">嗨！欢迎回来</string>
+    <string name="sign_in_go">去登录</string>
+    <string name="sign_in_success">登录成功</string>
+    <string name="sign_up">注册</string>
+    <string name="sign_up_welcome">欢迎加入</string>
+    <string name="sign_up_boot">还没有账户？</string>
+    <string name="sign_up_success">注册成功</string>
+    <string name="sign_up_go">马上注册</string>
+    <string name="sign_out">退出登录</string>
+    <string name="sign_out_hint_title">确认退出登录？</string>
+    <string name="sign_out_hint_content">退出登录后将无法实时收到消息</string>
+    <string name="sign_forgot_password">忘记密码</string>
+    <string name="account">账户</string>
+    <string name="password">密码</string>
+    <string name="account_is_email">账户必须是邮箱</string>
+
+    <string name="progress_wait">请稍等...</string>
+
+    <!--按钮相关-->
+    <string name="btn_prev">上一步</string>
+    <string name="btn_next">下一步</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_ok">确认</string>
+    <string name="btn_finish">完成</string>
+
+    <!--我的-->
+    <string name="me_info">个人信息</string>
+    <string name="me_avatar">头像</string>
+    <string name="me_username">用户名</string>
+    <string name="me_nickname">昵称</string>
+    <string name="me_nickname_default">昵称，不存在的</string>
+    <string name="me_signature">签名</string>
+    <string name="me_signature_default">无个性，不签名！</string>
+    <string name="me_gender">性别</string>
+    <string name="me_gender_unknown">神秘</string>
+    <string name="me_gender_man">帅</string>
+    <string name="me_gender_woman">美</string>
+    <string name="me_birthday">生日</string>
+    <string name="me_qr_code">二维码</string>
+    <string name="me_address">地址</string>
+    <string name="me_like">我喜欢的</string>
+    <string name="me_collect">我收藏的</string>
+
+    <string name="friend">好友</string>
+    <string name="follows">关注</string>
+    <string name="fans">粉丝</string>
+
+    <string name="match">匹配</string>
+    <string name="match_detail">匹配详情</string>
+    <string name="mine">我的</string>
+
+    <string name="private_letter">私信</string>
+
+    <!--设置-->
+    <string name="setting">设置</string>
+    <string name="notify">通知提醒</string>
+    <string name="notify_system">系统通知提醒</string>
+    <string name="notify_system_desc">前往系统设置中修改通知设置</string>
+    <string name="notify_desc">关闭后，收到新消息将不会有声音与震动提示</string>
+    <string name="notify_detail">通知显示消息详情</string>
+    <string name="notify_detail_desc">如果关闭，收到新消息后将不显示消息详情和消息摘要</string>
+
+
+    <string name="chat">聊天</string>
+    <string name="chat_settings">聊天设置</string>
+    <string name="circle_avatar">圆形头像</string>
+    <string name="circle_avatar_desc">是否显示圆形头像，默认为圆角样式</string>
+    <string name="chat_speaker_voice">扬声器播放语音</string>
+    <string name="chat_background">聊天背景</string>
+
+
+    <string name="privacy">隐私</string>
+
+    <string name="general">通用</string>
+
+    <string name="help">帮助与反馈</string>
+    <string name="about">关于</string>
+    <string name="about_check_new">检查更新</string>
+    <string name="about_thanks">引导图：小丑的微笑灬 https://www.zcool.com.cn/work/ZMzIyMTY3NTI=.html</string>
+
+    <!--引导文案-->
+    <string name="guide_title_0">各种消息</string>
+    <string name="guide_title_1">外出时间</string>
+    <string name="guide_title_2">休息时间</string>
+    <string name="guide_intro_0">语音，文字，图片，各种消息随心收发</string>
+    <string name="guide_intro_1">外出时间保证直达，不漏过任何消息</string>
+    <string name="guide_intro_2">休息时间，嗨起来吧 ^_^</string>
+
+    <!--错误相关描述-->
+    <string name="unknown">未知错误: %1$s，可将错误码反馈给我们，感谢</string>
+    <string name="account_username_already_exist">用户名已被占用</string>
+    <string name="account_email_already_exist">邮箱已被占用</string>
+    <string name="account_phone_already_exist">手机号已被占用</string>
+    <string name="account_username_password_mismatch">用户名密码不匹配</string>
+    <string name="account_user_doesnot_exist">用户不存在</string>
+
+    <string name="err_server">服务器错误: %1$s，可将错误码反馈给我们</string>
+    <string name="err_network_unusable">网络不可用，请检查网络</string>
+    <string name="err_network_timeout">请求超时，请稍后再试</string>
+
+</resources>

@@ -1,0 +1,95 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vmloft.develop.app.match">
+
+    <!--访问网络-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--读取手机状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--访问相机-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!--录音权限-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!--读写存储-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--Bugly 统计日志需要-->
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" />
+    <!--程序入口-->
+    <application
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <!--入口 Activity-->
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--引导界面-->
+        <activity android:name=".ui.guide.GuideActivity" />
+        <!--登录注册界面-->
+        <activity android:name=".ui.sign.SignInActivity" />
+        <activity android:name=".ui.sign.SignUpActivity" />
+        <!--个人信息-->
+        <activity android:name=".ui.main.me.MeInfoActivity" />
+        <activity android:name=".ui.main.me.MeNicknameActivity" />
+        <activity android:name=".ui.main.me.MeSignatureActivity" />
+        <!--用户信息-->
+        <activity android:name=".ui.user.UserDetailActivity" />
+        <!--匹配界面-->
+        <activity android:name=".ui.main.home.MatchActivity" />
+        <!--设置界面-->
+        <activity android:name=".ui.setting.SettingActivity" />
+        <activity android:name=".ui.setting.NotifySettingActivity" />
+        <activity android:name=".ui.setting.ChatSettingActivity" />
+        <activity android:name=".ui.setting.AboutSettingActivity" />
+
+        <!--兼容 9.0-->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <!-- 设置环信应用的 AppKey -->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="${em_appkey}" />
+
+        <!--Bugly 相关配置-->
+        <!-- 配置APP ID -->
+        <meta-data
+            android:name="BUGLY_APPID"
+            android:value="${bugly_app_id}" />
+        <!-- 配置APP版本号 -->
+        <meta-data
+            android:name="BUGLY_APP_VERSION"
+            android:value="${bugly_app_version}" />
+        <!-- 配置APP渠道号 -->
+        <meta-data
+            android:name="BUGLY_APP_CHANNEL"
+            android:value="${bugly_app_channel}" />
+        <!-- 配置Bugly调试模式（true或者false）-->
+        <meta-data
+            android:name="BUGLY_ENABLE_DEBUG"
+            android:value="${bugly_app_debug}" />
+    </application>
+
+    <!--全面屏适配-->
+    <meta-data
+        android:name="android.max_aspect"
+        android:value="2.4" />
+</manifest>
