@@ -29,7 +29,7 @@
         android:id="@+id/sign_go_sign_up_btn"
         android:layout_width="wrap_content"
         android:text="@string/sign_up_go"
-        android:textColor="@color/vm_blue_87"
+        android:textColor="@color/vm_deep_orange_87"
         app:layout_constraintBottom_toBottomOf="@+id/sign_welcome_tv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/sign_welcome_tv"
@@ -77,13 +77,13 @@
             android:layout_marginTop="@dimen/vm_margin_large"
             android:enabled="false"
             android:text="@string/sign_in"
-            style="@style/VMBtn.Fillet.Green"
+            style="@style/VMBtn.Fillet.Blue"
             />
 
         <Button
             android:id="@+id/sign_forget_password_btn"
             android:text="@string/sign_forgot_password"
-            android:textColor="@color/vm_blue_87"
+            android:textColor="@color/vm_deep_orange_87"
             style="@style/VMBtn.Flat"
             />
     </LinearLayout>

@@ -173,6 +173,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/app_card_bg"
+            android:visibility="gone"
             app:vm_line_icon="@drawable/ic_collect"
             app:vm_line_title="@string/me_collect"
             />

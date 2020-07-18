@@ -64,7 +64,7 @@
             android:layout_marginTop="@dimen/vm_margin_large"
             android:enabled="false"
             android:text="@string/sign_up"
-            style="@style/VMBtn.Fillet.Green"
+            style="@style/VMBtn.Fillet.Blue"
             />
 
     </LinearLayout>

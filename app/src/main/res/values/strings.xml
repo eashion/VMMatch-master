@@ -4,7 +4,7 @@
     <string name="app_text">测试文本</string>
     <!--登录注册相关资源-->
     <string name="sign_in">登录</string>
-    <string name="sign_in_welcome">嗨！欢迎回来</string>
+    <string name="sign_in_welcome">EmojiPrediction</string>
     <string name="sign_in_go">去登录</string>
     <string name="sign_in_success">登录成功</string>
     <string name="sign_up">注册</string>
@@ -27,31 +27,31 @@
     <string name="btn_next">下一步</string>
     <string name="btn_cancel">取消</string>
     <string name="btn_ok">确认</string>
-    <string name="btn_finish">完成</string>
+    <string name="btn_finish">搜索</string>
 
     <!--我的-->
-    <string name="me_info">个人信息</string>
+    <string name="me_info">好友信息</string>
     <string name="me_avatar">头像</string>
     <string name="me_username">用户名</string>
-    <string name="me_nickname">昵称</string>
+    <string name="me_nickname">用户昵称</string>
     <string name="me_nickname_default">昵称，不存在的</string>
     <string name="me_signature">签名</string>
     <string name="me_signature_default">无个性，不签名！</string>
     <string name="me_gender">性别</string>
-    <string name="me_gender_unknown">神秘</string>
+    <string name="me_gender_unknown">男</string>
     <string name="me_gender_man">帅</string>
     <string name="me_gender_woman">美</string>
     <string name="me_birthday">生日</string>
     <string name="me_qr_code">二维码</string>
     <string name="me_address">地址</string>
-    <string name="me_like">我喜欢的</string>
+    <string name="me_like">动态</string>
     <string name="me_collect">我收藏的</string>
 
     <string name="friend">好友</string>
     <string name="follows">关注</string>
     <string name="fans">粉丝</string>
 
-    <string name="match">匹配</string>
+    <string name="match">动态</string>
     <string name="match_detail">匹配详情</string>
     <string name="mine">我的</string>
 

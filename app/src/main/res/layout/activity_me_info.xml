@@ -54,6 +54,7 @@
             app:vm_line_decoration="true"
             app:vm_line_right_icon="@drawable/im_ic_arrow_right"
             app:vm_line_title="@string/me_qr_code"
+            android:visibility="gone"
             />
 
         <com.vmloft.develop.library.tools.widget.VMLineView
@@ -103,5 +104,27 @@
             app:vm_line_right_icon="@drawable/im_ic_arrow_right"
             app:vm_line_title="@string/me_address"
             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/common_margin_normal"
+        android:background="@color/app_card_bg"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/common_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:maxLength="10"
+            android:singleLine="true"
+            android:text="删除好友"
+            android:textColor="#FF0000"
+            android:textSize="16dp" />
     </LinearLayout>
 </LinearLayout>
